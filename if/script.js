@@ -21,7 +21,7 @@ else if( 50>score && score>= 0)
 {
 console.log( "You got a F");
 }
-else if( x== false){
+else if(Boolean(x)== false){
 console.log( "Not a Number");}
 else if( score==100)
 {
